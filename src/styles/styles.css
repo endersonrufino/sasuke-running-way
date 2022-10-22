@@ -1,0 +1,57 @@
+html {
+  overflow: hidden;
+}
+
+.clouds {
+    width: 550px;
+    position: absolute;
+    animation: clouds-animation 55s infinite linear;
+}
+
+.itachi {
+    position: absolute;
+    margin: 600px 0;
+    width: 200px;
+    animation: itachi-animation 57s infinite linear;
+}
+
+.sasuke {
+    position: absolute;
+    width: 200px;
+    margin: 610px 200px;
+    animation: sasuke-animation 56s infinite linear;
+}
+
+.city {
+    width: 100%;   
+}
+
+@keyframes clouds-animation {
+    from {
+      right: -550px;
+    }
+  
+    to {
+      right: 100%;
+    }
+}
+
+@keyframes itachi-animation {
+    from {
+      left: -500px;
+    }
+  
+    to {
+      left: 100%;
+    }
+}
+
+@keyframes sasuke-animation {
+    from {
+      left: -400px;
+    }
+  
+    to {
+      left: 100%;
+    }
+}
